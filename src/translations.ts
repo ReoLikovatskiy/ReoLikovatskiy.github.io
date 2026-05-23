@@ -10,7 +10,7 @@ export const t = {
     },
     hero: {
       greeting: 'Привет, я',
-      name: 'Игровой мастер',
+      name: 'D4Fine',
       tagline: 'Создаю миры в Minecraft · Пишу моды · Рисую текстуры · Моделирую',
       cta: 'Посмотреть работы',
       hire: 'Написать мне',
@@ -141,7 +141,7 @@ export const t = {
       },
     },
     footer: {
-      made: 'Сделано с ❤️ для комиссий',
+      made: 'В роте бал | Сделано с ❤️ для комиссий',
     },
   },
   en: {
@@ -284,7 +284,7 @@ export const t = {
       },
     },
     footer: {
-      made: 'Made with ❤️ for commissions',
+      made: 'v rote bal | Made with ❤️ for commissions',
     },
   },
 } as const;
