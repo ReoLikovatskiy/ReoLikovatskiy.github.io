@@ -21,25 +21,25 @@ export default function Contact() {
     {
       icon: Github,
       label: tr.contact.github,
-      href: 'https://github.com/YOUR_USERNAME',
+      href: 'https://github.com/ReoLikovatskiy',
       color: 'hover:border-gray-400 hover:text-gray-200',
     },
     {
       icon: MessageCircle,
       label: tr.contact.discord,
-      href: 'https://discord.com/users/YOUR_DISCORD_ID',
+      href: 'https://discord.com/users/d4fine',
       color: 'hover:border-blue-400 hover:text-blue-400',
     },
     {
       icon: Send,
       label: tr.contact.telegram,
-      href: 'https://t.me/YOUR_TELEGRAM',
+      href: 'https://t.me/D4Fine',
       color: 'hover:border-sky-400 hover:text-sky-400',
     },
     {
       icon: Mail,
       label: tr.contact.email,
-      href: 'mailto:YOUR_EMAIL@example.com',
+      href: 'mailto:reolikov@gmail.com',
       color: 'hover:border-emerald-400 hover:text-emerald-400',
     },
   ];
