@@ -1,0 +1,102 @@
+export default function PortfolioSite() { return ( <div className="min-h-screen bg-black text-white overflow-hidden relative"> <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(120,120,255,0.15),transparent_40%)]" />
+
+<div className="relative z-10 max-w-5xl mx-auto px-6 py-16">
+    <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
+      <div>
+        <p className="text-sm uppercase tracking-[0.3em] text-zinc-400 mb-3">
+          Minecraft • Roblox • Modding
+        </p>
+
+        <h1 className="text-5xl md:text-7xl font-black leading-none mb-4">
+          YOURNAME
+        </h1>
+
+        <p className="text-zinc-300 text-lg max-w-xl leading-relaxed">
+          Minecraft builder, pixel artist and Lua scripter.
+          I create industrial / steampunk builds, mod textures,
+          UI sprites and Roblox systems.
+        </p>
+
+        <div className="flex flex-wrap gap-3 mt-8">
+          <a
+            href="https://discord.com"
+            className="px-5 py-3 rounded-2xl bg-white text-black font-semibold hover:scale-105 transition"
+          >
+            Discord
+          </a>
+
+          <a
+            href="https://github.com"
+            className="px-5 py-3 rounded-2xl border border-zinc-700 hover:bg-zinc-900 transition"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://t.me"
+            className="px-5 py-3 rounded-2xl border border-zinc-700 hover:bg-zinc-900 transition"
+          >
+            Telegram
+          </a>
+        </div>
+      </div>
+
+      <div className="w-full md:w-[320px] h-[320px] rounded-[2rem] border border-zinc-800 bg-zinc-950 flex items-center justify-center text-zinc-600 text-center p-6 shadow-2xl">
+        <div>
+          <p className="text-sm uppercase tracking-[0.3em] mb-3">
+            Portfolio Preview
+          </p>
+
+          <p className="text-lg font-semibold text-zinc-300">
+            Add your build screenshots
+            <br />
+            or pixel art here
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div className="grid md:grid-cols-3 gap-6 mt-20">
+      <div className="rounded-3xl border border-zinc-800 bg-zinc-950 p-6">
+        <p className="text-zinc-500 text-sm mb-3">01</p>
+        <h2 className="text-2xl font-bold mb-3">Minecraft Builds</h2>
+        <p className="text-zinc-400 leading-relaxed">
+          Industrial, Create mod, steampunk and survival-friendly builds.
+        </p>
+      </div>
+
+      <div className="rounded-3xl border border-zinc-800 bg-zinc-950 p-6">
+        <p className="text-zinc-500 text-sm mb-3">02</p>
+        <h2 className="text-2xl font-bold mb-3">Pixel Art</h2>
+        <p className="text-zinc-400 leading-relaxed">
+          Minecraft item textures, GUI sprites and stylized icons.
+        </p>
+      </div>
+
+      <div className="rounded-3xl border border-zinc-800 bg-zinc-950 p-6">
+        <p className="text-zinc-500 text-sm mb-3">03</p>
+        <h2 className="text-2xl font-bold mb-3">Lua Scripting</h2>
+        <p className="text-zinc-400 leading-relaxed">
+          Roblox Studio gameplay systems and medium complexity scripts.
+        </p>
+      </div>
+    </div>
+
+    <div className="mt-20 rounded-[2rem] border border-indigo-500/20 bg-indigo-500/10 p-8 backdrop-blur">
+      <p className="text-sm uppercase tracking-[0.3em] text-indigo-300 mb-3">
+        Open for commissions
+      </p>
+
+      <h2 className="text-3xl md:text-4xl font-black mb-4">
+        Need a builder, texture artist or scripter?
+      </h2>
+
+      <p className="text-zinc-300 max-w-2xl leading-relaxed">
+        Contact me via Discord or Telegram.
+        I can work on Minecraft servers, modding projects and Roblox games.
+      </p>
+    </div>
+  </div>
+</div>
+
+) }
